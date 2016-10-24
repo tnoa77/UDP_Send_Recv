@@ -1,7 +1,9 @@
 import socket
+import time
 from datetime import datetime
 from random import Random
-
+from MySQL import *
+default_encoding = 'utf-8'
 
 def get_random_data(random_length=8):
     result = ''
@@ -19,18 +21,27 @@ socketServer.bind(listenAddress)
 
 socketClient = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
+# CLEAR
+
+db = MySQL()
+packet_length = 1458
+
 packet1SentTime = datetime.utcnow()
-socketClient.sendto(get_random_data(1500), serverAddress)
+socketClient.sendto(get_random_data(packet_length), serverAddress)
 socketServer.recvfrom(2048)
 packet1RecvTime = datetime.utcnow()
 
 packet2SentTime = datetime.utcnow()
-socketClient.sendto(get_random_data(1500), serverAddress)
+socketClient.sendto(get_random_data(packet_length), serverAddress)
 socketServer.recvfrom(2048)
 packet2RecvTime = datetime.utcnow()
 
-print (packet1RecvTime - packet1SentTime)
-print (packet2RecvTime - packet2SentTime)
+sql = "INSERT INTO `kw_data` (`P1_SEND`, `P1_RECV`, `P2_SEND`, `P2_RECV`) VALUES ('%d'," \
+              " '%d','%d','%d')" % (packet1SentTime, packet1RecvTime, packet2SentTime, packet2RecvTime)
+# db.execute(sql)
+print packet1SentTime, ",", packet1RecvTime, ",", packet2SentTime, ",", packet2RecvTime
+
+time.sleep(1)
 
 socketClient.close()
 
