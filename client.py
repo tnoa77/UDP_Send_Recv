@@ -39,6 +39,7 @@ def get_ts():
     ts = datetime.utcnow()
     return str(ts.second).zfill(2) + str(ts.microsecond).zfill(6)
 
+os.system('arp -s 10.0.0.1 00:00:00:00:00:01')
 
 serverAddress = ('127.0.0.1', 9270)
 listenAddress = ('127.0.0.1', 9271)

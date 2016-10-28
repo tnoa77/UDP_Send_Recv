@@ -5,7 +5,7 @@ import MySQLdb
 class MySQL(object):
     conn = ''
     cursor = ''
-    option = {"host": "127.0.0.1", "username": "root", "password": "root", "database": "sdn_test"}
+    option = {"host": "localhost", "username": "root", "password": "root", "database": "sdn_test"}
 
     def __init__(self):
         self.conn = MySQLdb.connect(self.option["host"], self.option["username"], self.option["password"],
