@@ -39,8 +39,8 @@ def get_ts():
     return str(ts.minute).zfill(2) + str(ts.second).zfill(2) + str(ts.microsecond).zfill(6)
 
 
-serverAddress = ('127.0.0.1', 9250)
-listenAddress = ('127.0.0.1', 9251)
+serverAddress = ('127.0.0.1', 9270)
+listenAddress = ('127.0.0.1', 9271)
 socketServer = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 socketServer.bind(listenAddress)
 socketClient = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
