@@ -56,6 +56,8 @@ while True:
     os.system('ovs-ofctl del-flows s1')
     os.system('ovs-ofctl del-flows s2')
 
+    time.sleep(1200)
+
     tag = str(uuid.uuid1())
     db = MySQL()
     sql = "INSERT INTO `kw_data` (`TAG`) VALUES ('%s')" % tag
