@@ -49,34 +49,32 @@ socketClient = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 t = threading.Thread(target=receive_thread, args=())
 t.start()
 
-# while start
+while True:
 
-# CLEAR
-os.system('ovs-ofctl del-flows s1')
-os.system('ovs-ofctl del-flows s2')
+    # CLEAR
+    os.system('ovs-ofctl del-flows s1')
+    os.system('ovs-ofctl del-flows s2')
 
-tag = str(uuid.uuid1())
-db = MySQL()
-sql = "INSERT INTO `kw_data` (`TAG`) VALUES ('%s')" % tag
-db.execute(sql)
-print sql
+    tag = str(uuid.uuid1())
+    db = MySQL()
+    sql = "INSERT INTO `kw_data` (`TAG`) VALUES ('%s')" % tag
+    db.execute(sql)
+    print sql
 
-update_thead(tag, 'P1_SEND', get_ts())
-socketClient.sendto(generate_data(tag, "P1_RECV"), serverAddress)
+    update_thead(tag, 'P1_SEND', get_ts())
+    socketClient.sendto(generate_data(tag, "P1_RECV"), serverAddress)
 
-update_thead(tag, 'P2_SEND', get_ts())
-socketClient.sendto(generate_data(tag, "P2_RECV"), serverAddress)
+    update_thead(tag, 'P2_SEND', get_ts())
+    socketClient.sendto(generate_data(tag, "P2_RECV"), serverAddress)
 
-time.sleep(1)
+    time.sleep(1)
 
-update_thead(tag, 'P3_SEND', get_ts())
-socketClient.sendto(generate_data(tag, "P3_RECV"), serverAddress)
+    update_thead(tag, 'P3_SEND', get_ts())
+    socketClient.sendto(generate_data(tag, "P3_RECV"), serverAddress)
 
-update_thead(tag, 'P4_SEND', get_ts())
-socketClient.sendto(generate_data(tag, "P4_RECV"), serverAddress)
+    update_thead(tag, 'P4_SEND', get_ts())
+    socketClient.sendto(generate_data(tag, "P4_RECV"), serverAddress)
 
-time.sleep(2)
-
-# while end
+    time.sleep(2)
 
 socketClient.close()
