@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="74b2faf1-385c-4c61-96c1-851b06cb47bd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client.py" afterPath="$PROJECT_DIR$/client.py" />
     </list>
     <ignored path="UDP_Send_Recv.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,9 +56,9 @@
               <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-                <marker date="1477657701000" expanded="true" signature="750:769" ph="UPDATE kw_da... " />
-                <marker date="1477657701000" expanded="true" signature="750:799" ph="UPDATE kw_da... " />
-                <marker date="1477657701000" expanded="true" signature="1500:1543" ph="INSERT INTO `kw_data`... " />
+                <marker date="1477657731000" expanded="true" signature="750:769" ph="UPDATE kw_da... " />
+                <marker date="1477657731000" expanded="true" signature="750:799" ph="UPDATE kw_da... " />
+                <marker date="1477657731000" expanded="true" signature="1500:1543" ph="INSERT INTO `kw_data`... " />
               </folding>
             </state>
           </provider>
@@ -482,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477657579723</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update sleep time">
+      <created>1477657709461</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1477657709461</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -574,9 +580,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1477657701000" expanded="true" signature="750:769" ph="UPDATE kw_da... " />
-            <marker date="1477657701000" expanded="true" signature="750:799" ph="UPDATE kw_da... " />
-            <marker date="1477657701000" expanded="true" signature="1500:1543" ph="INSERT INTO `kw_data`... " />
+            <marker date="1477657731000" expanded="true" signature="750:769" ph="UPDATE kw_da... " />
+            <marker date="1477657731000" expanded="true" signature="750:799" ph="UPDATE kw_da... " />
+            <marker date="1477657731000" expanded="true" signature="1500:1543" ph="INSERT INTO `kw_data`... " />
           </folding>
         </state>
       </provider>
@@ -621,9 +627,9 @@
           <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1477657701000" expanded="true" signature="750:769" ph="UPDATE kw_da... " />
-            <marker date="1477657701000" expanded="true" signature="750:799" ph="UPDATE kw_da... " />
-            <marker date="1477657701000" expanded="true" signature="1500:1543" ph="INSERT INTO `kw_data`... " />
+            <marker date="1477657731000" expanded="true" signature="750:769" ph="UPDATE kw_da... " />
+            <marker date="1477657731000" expanded="true" signature="750:799" ph="UPDATE kw_da... " />
+            <marker date="1477657731000" expanded="true" signature="1500:1543" ph="INSERT INTO `kw_data`... " />
           </folding>
         </state>
       </provider>
