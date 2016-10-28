@@ -9,6 +9,8 @@ from MySQL import *
 
 default_encoding = 'utf-8'
 
+db = MySQL()
+
 
 def generate_data(tag, no):
     result = tag + "," + no + "#"
@@ -25,20 +27,25 @@ def receive_thread():
     while True:
         data, clintAddress = socketServer.recvfrom(2048)
         datas = data.split(",")
-        thread = threading.Thread(target=update_thead, args=(datas[0], datas[1], get_ts()))
-        thread.start()
+        update_thead(datas[0], datas[1], get_ts())
 
 
 def update_thead(tag, key, value):
-    database = MySQL()
+    print sql
+    thread = threading.Thread(target=do_update_thead, args=(tag, key, value))
+    thread.start()
+
+
+def do_update_thead(tag, key, value):
     sql = "UPDATE kw_data SET `%s` = '%s' WHERE `TAG` = '%s'" % (key, value, tag)
-    database.execute(sql)
+    db.execute(sql)
     print sql
 
 
 def get_ts():
     ts = datetime.utcnow()
     return str(ts.second).zfill(2) + str(ts.microsecond).zfill(6)
+
 
 os.system('arp -s 10.0.0.1 00:00:00:00:00:01]]]]')
 
@@ -52,15 +59,12 @@ t = threading.Thread(target=receive_thread, args=())
 t.start()
 
 while True:
-
-    # CLEAR
     os.system('ovs-ofctl del-flows s1')
     os.system('ovs-ofctl del-flows s2')
 
     time.sleep(1)
 
     tag = str(uuid.uuid1())
-    db = MySQL()
     sql = "INSERT INTO `kw_data` (`TAG`) VALUES ('%s')" % tag
     db.execute(sql)
     print sql
