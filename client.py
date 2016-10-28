@@ -36,7 +36,7 @@ def update_thead(tag, key, value):
 
 def get_ts():
     ts = datetime.utcnow()
-    return str(ts.minute).zfill(2) + str(ts.second).zfill(2) + str(ts.microsecond).zfill(6)
+    return str(ts.second).zfill(2) + str(ts.microsecond).zfill(6)
 
 
 serverAddress = ('127.0.0.1', 9270)
