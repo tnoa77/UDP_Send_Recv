@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="74b2faf1-385c-4c61-96c1-851b06cb47bd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client.py" afterPath="$PROJECT_DIR$/client.py" />
     </list>
     <ignored path="UDP_Send_Recv.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,13 +53,13 @@
       <file leaf-file-name="client.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+            <state relative-caret-position="420">
+              <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-                <marker date="1477657731000" expanded="true" signature="750:769" ph="UPDATE kw_da... " />
-                <marker date="1477657731000" expanded="true" signature="750:799" ph="UPDATE kw_da... " />
-                <marker date="1477657731000" expanded="true" signature="1500:1543" ph="INSERT INTO `kw_data`... " />
+                <marker date="1477659270000" expanded="true" signature="814:833" ph="UPDATE kw_da... " />
+                <marker date="1477659270000" expanded="true" signature="814:863" ph="UPDATE kw_da... " />
+                <marker date="1477659270000" expanded="true" signature="1564:1607" ph="INSERT INTO `kw_data`... " />
               </folding>
             </state>
           </provider>
@@ -488,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477657709461</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update sleep time">
+      <created>1477657751488</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1477657751488</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -500,7 +508,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32802126" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32802126" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -580,9 +588,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1477657731000" expanded="true" signature="750:769" ph="UPDATE kw_da... " />
-            <marker date="1477657731000" expanded="true" signature="750:799" ph="UPDATE kw_da... " />
-            <marker date="1477657731000" expanded="true" signature="1500:1543" ph="INSERT INTO `kw_data`... " />
+            <marker date="1477659270000" expanded="true" signature="814:833" ph="UPDATE kw_da... " />
+            <marker date="1477659270000" expanded="true" signature="814:863" ph="UPDATE kw_da... " />
+            <marker date="1477659270000" expanded="true" signature="1564:1607" ph="INSERT INTO `kw_data`... " />
           </folding>
         </state>
       </provider>
@@ -623,13 +631,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+        <state relative-caret-position="420">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1477657731000" expanded="true" signature="750:769" ph="UPDATE kw_da... " />
-            <marker date="1477657731000" expanded="true" signature="750:799" ph="UPDATE kw_da... " />
-            <marker date="1477657731000" expanded="true" signature="1500:1543" ph="INSERT INTO `kw_data`... " />
+            <marker date="1477659270000" expanded="true" signature="814:833" ph="UPDATE kw_da... " />
+            <marker date="1477659270000" expanded="true" signature="814:863" ph="UPDATE kw_da... " />
+            <marker date="1477659270000" expanded="true" signature="1564:1607" ph="INSERT INTO `kw_data`... " />
           </folding>
         </state>
       </provider>

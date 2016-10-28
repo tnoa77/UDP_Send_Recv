@@ -15,7 +15,7 @@ def generate_data(tag, no):
     chars = 'AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789'
     length = len(chars) - 1
     random = Random()
-    data_length = 1458 - len(result)
+    data_length = 1456 - len(result)
     for i in range(data_length):
         result += chars[random.randint(0, length)]
     return result
@@ -25,7 +25,8 @@ def receive_thread():
     while True:
         data, clintAddress = socketServer.recvfrom(2048)
         datas = data.split(",")
-        update_thead(datas[0], datas[1], get_ts())
+        thread = threading.Thread(target=update_thead, args=(datas[0], datas[1], get_ts()))
+        thread.start()
 
 
 def update_thead(tag, key, value):
