@@ -29,8 +29,9 @@ def receive_thread():
 
 
 def update_thead(tag, key, value):
+    database = MySQL()
     sql = "UPDATE kw_data SET `%s` = '%s' WHERE `TAG` = '%s'" % (key, value, tag)
-    db.execute(sql)
+    database.execute(sql)
     print sql
 
 
@@ -45,7 +46,6 @@ socketServer = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 socketServer.bind(listenAddress)
 socketClient = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
-db = MySQL()
 t = threading.Thread(target=receive_thread, args=())
 t.start()
 
@@ -56,6 +56,7 @@ os.system('ovs-ofctl del-flows s1')
 os.system('ovs-ofctl del-flows s2')
 
 tag = str(uuid.uuid1())
+db = MySQL()
 sql = "INSERT INTO `kw_data` (`TAG`) VALUES ('%s')" % tag
 db.execute(sql)
 print sql
