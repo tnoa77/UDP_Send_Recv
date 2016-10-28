@@ -53,12 +53,12 @@
       <file leaf-file-name="client.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="26" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="26" />
+            <state relative-caret-position="575">
+              <caret line="104" column="17" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="17" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-                <marker date="1477659993000" expanded="true" signature="892:941" ph="UPDATE kw_da... " />
-                <marker date="1477659993000" expanded="true" signature="1607:1650" ph="INSERT INTO `kw_data`... " />
+                <marker date="1477660909000" expanded="true" signature="918:1112" ph="UPDATE kw_da... " />
+                <marker date="1477660909000" expanded="true" signature="2218:2261" ph="INSERT INTO `kw_data`... " />
               </folding>
             </state>
           </provider>
@@ -502,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477659304480</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add thread 2">
+      <created>1477660017371</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1477660017371</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -552,7 +559,8 @@
     <MESSAGE value="update ip" />
     <MESSAGE value="update sleep time" />
     <MESSAGE value="add thread" />
-    <option name="LAST_COMMIT_MESSAGE" value="add thread" />
+    <MESSAGE value="add thread 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add thread 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -595,8 +603,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1477659993000" expanded="true" signature="892:941" ph="UPDATE kw_da... " />
-            <marker date="1477659993000" expanded="true" signature="1607:1650" ph="INSERT INTO `kw_data`... " />
+            <marker date="1477660909000" expanded="true" signature="918:1112" ph="UPDATE kw_da... " />
+            <marker date="1477660909000" expanded="true" signature="2218:2261" ph="INSERT INTO `kw_data`... " />
           </folding>
         </state>
       </provider>
@@ -617,14 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MySQL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -635,14 +635,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MySQL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="26" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="26" />
+        <state relative-caret-position="575">
+          <caret line="104" column="17" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="17" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1477659993000" expanded="true" signature="892:941" ph="UPDATE kw_da... " />
-            <marker date="1477659993000" expanded="true" signature="1607:1650" ph="INSERT INTO `kw_data`... " />
+            <marker date="1477660909000" expanded="true" signature="918:1112" ph="UPDATE kw_da... " />
+            <marker date="1477660909000" expanded="true" signature="2218:2261" ph="INSERT INTO `kw_data`... " />
           </folding>
         </state>
       </provider>
