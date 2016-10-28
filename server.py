@@ -4,7 +4,7 @@ import os
 
 os.system('arp -s 10.0.0.2 00:00:00:00:00:02')
 
-listenAddress = ('127.0.0.1', 9270)
+listenAddress = ('10.0.0.1', 9270)
 socketServer = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 socketServer.bind(listenAddress)
 

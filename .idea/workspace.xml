@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="74b2faf1-385c-4c61-96c1-851b06cb47bd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MySQL.py" afterPath="$PROJECT_DIR$/MySQL.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client.py" afterPath="$PROJECT_DIR$/client.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.py" afterPath="$PROJECT_DIR$/server.py" />
     </list>
@@ -43,8 +42,8 @@
       <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -55,13 +54,13 @@
       <file leaf-file-name="client.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+            <state relative-caret-position="660">
+              <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-                <marker date="1477656755000" expanded="true" signature="750:769" ph="UPDATE kw_da... " />
-                <marker date="1477656755000" expanded="true" signature="750:799" ph="UPDATE kw_da... " />
-                <marker date="1477656755000" expanded="true" signature="1479:1522" ph="INSERT INTO `kw_data`... " />
+                <marker date="1477656941000" expanded="true" signature="750:769" ph="UPDATE kw_da... " />
+                <marker date="1477656941000" expanded="true" signature="750:799" ph="UPDATE kw_da... " />
+                <marker date="1477656941000" expanded="true" signature="1481:1524" ph="INSERT INTO `kw_data`... " />
               </folding>
             </state>
           </provider>
@@ -83,8 +82,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/MySQL.py" />
-        <option value="$PROJECT_DIR$/server.py" />
         <option value="$PROJECT_DIR$/client.py" />
+        <option value="$PROJECT_DIR$/server.py" />
       </list>
     </option>
   </component>
@@ -463,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477655792127</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update arp">
+      <created>1477656774216</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1477656774216</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -509,7 +515,8 @@
     <MESSAGE value="update ts" />
     <MESSAGE value="update db conn" />
     <MESSAGE value="update while" />
-    <option name="LAST_COMMIT_MESSAGE" value="update while" />
+    <MESSAGE value="update arp" />
+    <option name="LAST_COMMIT_MESSAGE" value="update arp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -552,9 +559,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1477656755000" expanded="true" signature="750:769" ph="UPDATE kw_da... " />
-            <marker date="1477656755000" expanded="true" signature="750:799" ph="UPDATE kw_da... " />
-            <marker date="1477656755000" expanded="true" signature="1479:1522" ph="INSERT INTO `kw_data`... " />
+            <marker date="1477656941000" expanded="true" signature="750:769" ph="UPDATE kw_da... " />
+            <marker date="1477656941000" expanded="true" signature="750:799" ph="UPDATE kw_da... " />
+            <marker date="1477656941000" expanded="true" signature="1481:1524" ph="INSERT INTO `kw_data`... " />
           </folding>
         </state>
       </provider>
@@ -585,8 +592,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -595,13 +602,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+        <state relative-caret-position="660">
+          <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1477656755000" expanded="true" signature="750:769" ph="UPDATE kw_da... " />
-            <marker date="1477656755000" expanded="true" signature="750:799" ph="UPDATE kw_da... " />
-            <marker date="1477656755000" expanded="true" signature="1479:1522" ph="INSERT INTO `kw_data`... " />
+            <marker date="1477656941000" expanded="true" signature="750:769" ph="UPDATE kw_da... " />
+            <marker date="1477656941000" expanded="true" signature="750:799" ph="UPDATE kw_da... " />
+            <marker date="1477656941000" expanded="true" signature="1481:1524" ph="INSERT INTO `kw_data`... " />
           </folding>
         </state>
       </provider>

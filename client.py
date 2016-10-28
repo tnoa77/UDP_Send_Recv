@@ -39,10 +39,10 @@ def get_ts():
     ts = datetime.utcnow()
     return str(ts.second).zfill(2) + str(ts.microsecond).zfill(6)
 
-os.system('arp -s 10.0.0.1 00:00:00:00:00:01')
+os.system('arp -s 10.0.0.1 00:00:00:00:00:01]]]]')
 
-serverAddress = ('127.0.0.1', 9270)
-listenAddress = ('127.0.0.1', 9271)
+serverAddress = ('10.0.0.1', 9270)
+listenAddress = ('10.0.0.2', 9271)
 socketServer = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 socketServer.bind(listenAddress)
 socketClient = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
