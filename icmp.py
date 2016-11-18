@@ -35,6 +35,6 @@ t3 = get_ts()
 sr(icmp)
 t4 = get_ts()
 
-sql = "INSERT INTO kw_icmp(`MAC`, `T1`, `T2`, `T3`, `T4`) VALUES('%s', ''%s', '%s', '%s', '%s')" % (mac, t1, t2, t3, t4)
+sql = "INSERT INTO kw_icmp(`MAC`, `T1`, `T2`, `T3`, `T4`) VALUES('%s', %s, %s, %s, %s)" % (mac, t1, t2, t3, t4)
 db.execute(sql)
 print sql
