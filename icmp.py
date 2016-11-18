@@ -45,6 +45,4 @@ while True:
     db.execute(sql)
     print "%s: %s, %s, %s, %s" % (mac, t1, t2, t3, t4)
 
-    time.sleep(1)
-
-    break
+    time.sleep(2)
