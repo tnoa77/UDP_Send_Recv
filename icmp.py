@@ -18,24 +18,24 @@ def get_ts():
     ts = datetime.utcnow()
     return str(ts.second).zfill(2) + str(ts.microsecond).zfill(6)
 
+while True:
+    mac = random_mac()
 
-mac = random_mac()
+    os.system("ifconfig h2-eth0 down")
+    os.system("ifconfig h2-eth0 hw ether " + mac)
+    os.system("ifconfig h2-eth0 up")
 
-os.system("ifconfig h2-eth0 down")
-os.system("ifconfig h2-eth0 hw ether " + mac)
-os.system("ifconfig h2-eth0 up")
+    icmp = IP(dst="10.0.0.1") / ICMP()
 
-icmp = IP(dst="10.0.0.1") / ICMP()
+    t1 = get_ts()
+    sr(icmp)
+    t2 = get_ts()
 
-t1 = get_ts()
-sr(icmp)
-t2 = get_ts()
+    t3 = get_ts()
+    sr(icmp)
+    t4 = get_ts()
 
-t3 = get_ts()
-sr(icmp)
-t4 = get_ts()
+    sql = "INSERT INTO kw_icmp(`MAC`, `T1`, `T2`, `T3`, `T4`) VALUES('%s', %d, %d, %d, %d)" % (mac, t1, t2, t3, t4)
 
-sql = "INSERT INTO kw_icmp(`MAC`, `T1`, `T2`, `T3`, `T4`) VALUES('%s', %s, %s, %s, %s)" % (mac, t1, t2, t3, t4)
-
-db.execute(sql)
-print sql
+    db.execute(sql)
+    print "%s: %d, %d, %d, %d" % (mac, t1, t2, t3, t4)
