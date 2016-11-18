@@ -67,15 +67,15 @@
       <file leaf-file-name="icmp.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/icmp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="543">
+              <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
-                <marker date="1479461247000" expanded="true" signature="740:816" ph="INSERT INTO kw_icmp... " />
-                <marker date="1479461247000" expanded="true" signature="740:819" ph="INSERT INTO kw_icmp... " />
-                <marker date="1479461247000" expanded="true" signature="740:822" ph="INSERT INTO kw_icmp... " />
-                <marker date="1479461247000" expanded="true" signature="740:844" ph="INSERT INTO kw_icmp... " />
-                <marker date="1479461247000" expanded="true" signature="751:816" ph="UPDATE kw_ic... " />
+                <marker date="1479461320000" expanded="true" signature="740:816" ph="INSERT INTO kw_icmp... " />
+                <marker date="1479461320000" expanded="true" signature="740:819" ph="INSERT INTO kw_icmp... " />
+                <marker date="1479461320000" expanded="true" signature="740:822" ph="INSERT INTO kw_icmp... " />
+                <marker date="1479461320000" expanded="true" signature="740:844" ph="INSERT INTO kw_icmp... " />
+                <marker date="1479461320000" expanded="true" signature="751:816" ph="UPDATE kw_ic... " />
               </folding>
             </state>
           </provider>
@@ -563,7 +563,14 @@
       <option name="project" value="LOCAL" />
       <updated>1479461170044</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add loop">
+      <created>1479461262043</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1479461262043</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -617,7 +624,8 @@
     <MESSAGE value="add insert method" />
     <MESSAGE value="add icmp" />
     <MESSAGE value="fix bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix bug" />
+    <MESSAGE value="add loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="add loop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -796,15 +804,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/icmp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="543">
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-            <marker date="1479461247000" expanded="true" signature="740:816" ph="INSERT INTO kw_icmp... " />
-            <marker date="1479461247000" expanded="true" signature="740:819" ph="INSERT INTO kw_icmp... " />
-            <marker date="1479461247000" expanded="true" signature="740:822" ph="INSERT INTO kw_icmp... " />
-            <marker date="1479461247000" expanded="true" signature="740:844" ph="INSERT INTO kw_icmp... " />
-            <marker date="1479461247000" expanded="true" signature="751:816" ph="UPDATE kw_ic... " />
+            <marker date="1479461320000" expanded="true" signature="740:816" ph="INSERT INTO kw_icmp... " />
+            <marker date="1479461320000" expanded="true" signature="740:819" ph="INSERT INTO kw_icmp... " />
+            <marker date="1479461320000" expanded="true" signature="740:822" ph="INSERT INTO kw_icmp... " />
+            <marker date="1479461320000" expanded="true" signature="740:844" ph="INSERT INTO kw_icmp... " />
+            <marker date="1479461320000" expanded="true" signature="751:816" ph="UPDATE kw_ic... " />
           </folding>
         </state>
       </provider>
