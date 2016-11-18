@@ -1,7 +1,6 @@
 from scapy.all import *
 from datetime import datetime
 import os
-from random import random
 from MySQL import *
 
 db = MySQL()
