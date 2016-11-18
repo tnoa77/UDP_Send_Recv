@@ -67,15 +67,15 @@
       <file leaf-file-name="icmp.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/icmp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="573">
+              <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
-                <marker date="1479461432000" expanded="true" signature="752:828" ph="INSERT INTO kw_icmp... " />
-                <marker date="1479461432000" expanded="true" signature="752:831" ph="INSERT INTO kw_icmp... " />
-                <marker date="1479461432000" expanded="true" signature="752:834" ph="INSERT INTO kw_icmp... " />
-                <marker date="1479461432000" expanded="true" signature="752:856" ph="INSERT INTO kw_icmp... " />
-                <marker date="1479461432000" expanded="true" signature="763:828" ph="UPDATE kw_ic... " />
+                <marker date="1479461581000" expanded="true" signature="790:866" ph="INSERT INTO kw_icmp... " />
+                <marker date="1479461581000" expanded="true" signature="790:869" ph="INSERT INTO kw_icmp... " />
+                <marker date="1479461581000" expanded="true" signature="790:872" ph="INSERT INTO kw_icmp... " />
+                <marker date="1479461581000" expanded="true" signature="790:894" ph="INSERT INTO kw_icmp... " />
+                <marker date="1479461581000" expanded="true" signature="801:866" ph="UPDATE kw_ic... " />
               </folding>
             </state>
           </provider>
@@ -577,7 +577,14 @@
       <option name="project" value="LOCAL" />
       <updated>1479461329813</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="fix bug">
+      <created>1479461443557</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1479461443557</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -811,15 +818,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/icmp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="573">
+          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-            <marker date="1479461432000" expanded="true" signature="752:828" ph="INSERT INTO kw_icmp... " />
-            <marker date="1479461432000" expanded="true" signature="752:831" ph="INSERT INTO kw_icmp... " />
-            <marker date="1479461432000" expanded="true" signature="752:834" ph="INSERT INTO kw_icmp... " />
-            <marker date="1479461432000" expanded="true" signature="752:856" ph="INSERT INTO kw_icmp... " />
-            <marker date="1479461432000" expanded="true" signature="763:828" ph="UPDATE kw_ic... " />
+            <marker date="1479461581000" expanded="true" signature="790:866" ph="INSERT INTO kw_icmp... " />
+            <marker date="1479461581000" expanded="true" signature="790:869" ph="INSERT INTO kw_icmp... " />
+            <marker date="1479461581000" expanded="true" signature="790:872" ph="INSERT INTO kw_icmp... " />
+            <marker date="1479461581000" expanded="true" signature="790:894" ph="INSERT INTO kw_icmp... " />
+            <marker date="1479461581000" expanded="true" signature="801:866" ph="UPDATE kw_ic... " />
           </folding>
         </state>
       </provider>

@@ -26,11 +26,15 @@ while True:
     os.system("ifconfig h2-eth0 hw ether " + mac)
     os.system("ifconfig h2-eth0 up")
 
+    time.sleep(1)
+
     icmp = IP(dst="10.0.0.1") / ICMP()
 
     t1 = get_ts()
     sr(icmp)
     t2 = get_ts()
+
+    time.sleep(1)
 
     t3 = get_ts()
     sr(icmp)
@@ -42,3 +46,5 @@ while True:
     print "%s: %s, %s, %s, %s" % (mac, t1, t2, t3, t4)
 
     time.sleep(1)
+
+    break
