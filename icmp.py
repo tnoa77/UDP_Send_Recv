@@ -2,6 +2,7 @@ from scapy.all import *
 from datetime import datetime
 import os
 from MySQL import *
+import time
 
 db = MySQL()
 
@@ -39,3 +40,5 @@ while True:
 
     db.execute(sql)
     print "%s: %s, %s, %s, %s" % (mac, t1, t2, t3, t4)
+
+    time.sleep(1)
