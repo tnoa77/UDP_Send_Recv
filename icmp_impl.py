@@ -1,13 +1,12 @@
-import os
-from mysql import *
+from MySQL import *
 from svmutil import *
 
-db = mysql()
+db = MySQL()
 
-print "please enter the size of train size:"
+print "please enter the size of train set:"
 train_count = int(input())
 
-print "please enter the size of test size:"
+print "please enter the size of test set:"
 test_count = int(input())
 
 
