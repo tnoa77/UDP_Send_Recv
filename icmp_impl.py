@@ -38,7 +38,7 @@ data_count = sql2file("train.in")
 
 print "training:"
 y, x = svm_read_problem('train.in')
-m = svm_train(y[:data_count], x[:data_count], '-s 0 -c 10 -g 0.7'fl)
+m = svm_train(y[:data_count], x[:data_count], '-s 0 -c 10 -g 0.7')
 
 print "getting test data:"
 get_data(test_count)
