@@ -10,8 +10,10 @@ db = MySQL()
 sql = "SELECT * FROM kw_icmp"
 rel = db.query(sql)
 
+f = open('test.in', "wb")
 for v in rel:
-    print v[1]
     dt1 = v[3] - v[2]
     dt2 = v[5] - v[4]
-    print dt1, dt2
+    f.write("1 1:" + dt1 + "\n")
+    f.write("0 1:" + dt1 + "\n")
+f.close()
