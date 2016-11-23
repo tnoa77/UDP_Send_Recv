@@ -29,14 +29,14 @@ def sql2file(file_name):
     return count
 
 print "getting train data:"
-get_data(20)
+get_data(200)
 
 print "transfer train data:"
 data_count = sql2file("train.in")
 
 print "training:"
 y, x = svm_read_problem('train.in')
-m = svm_train(y[:data_count], x[:data_count], '-c 4')
+m = svm_train(y[:data_count], x[:data_count], '-s 0 -c 10 -g 0.7')
 
 print "getting test data:"
 get_data(20)
