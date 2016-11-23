@@ -14,6 +14,6 @@ f = open('test.in', "wb")
 for v in rel:
     dt1 = v[3] - v[2]
     dt2 = v[5] - v[4]
-    f.write("1 1:" + dt1 + "\n")
-    f.write("0 1:" + dt1 + "\n")
+    f.write("1 1:" + str(dt1) + "\n")
+    f.write("0 1:" + str(dt2) + "\n")
 f.close()
