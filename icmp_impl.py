@@ -1,11 +1,14 @@
 import os
-from MySQL import *
+from mysql import *
 from svmutil import *
 
-db = MySQL()
+db = mysql()
 
-train_count = 200
-test_count = 20
+print "请输入训练集大小："
+train_count = int(input())
+
+print "请输入测试集大小："
+test_count = int(input())
 
 def get_data(count):
     sql = "truncate table kw_icmp"
