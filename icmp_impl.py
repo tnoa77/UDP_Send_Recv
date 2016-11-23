@@ -1,3 +1,4 @@
+import os
 from MySQL import *
 from svmutil import *
 
