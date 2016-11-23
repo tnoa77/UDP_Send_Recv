@@ -1,10 +1,8 @@
 import os
 from MySQL import *
 from svmutil import *
-import os
 
 db = MySQL()
-os.chdir('/home/root/libsvm-3.21/python')
 
 
 def get_data(count):

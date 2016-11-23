@@ -83,12 +83,12 @@
       <file leaf-file-name="icmp_impl.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/icmp_impl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="-40">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-                <marker date="1479892136000" expanded="true" signature="370:391" ph="select * FRO... kw_icmp" />
-                <marker date="1479892136000" expanded="true" signature="376:391" ph="SELECT * FRO... kw_icmp" />
+                <marker date="1479899024000" expanded="true" signature="318:339" ph="select * FRO... kw_icmp" />
+                <marker date="1479899024000" expanded="true" signature="324:339" ph="SELECT * FRO... kw_icmp" />
               </folding>
             </state>
           </provider>
@@ -695,7 +695,14 @@
       <option name="project" value="LOCAL" />
       <updated>1479892055076</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="update">
+      <created>1479892160086</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1479892160086</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -810,8 +817,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1479892136000" expanded="true" signature="370:391" ph="select * FRO... kw_icmp" />
-            <marker date="1479892136000" expanded="true" signature="376:391" ph="SELECT * FRO... kw_icmp" />
+            <marker date="1479899024000" expanded="true" signature="318:339" ph="select * FRO... kw_icmp" />
+            <marker date="1479899024000" expanded="true" signature="324:339" ph="SELECT * FRO... kw_icmp" />
           </folding>
         </state>
       </provider>
@@ -1000,12 +1007,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/icmp_impl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="-40">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1479892136000" expanded="true" signature="370:391" ph="select * FRO... kw_icmp" />
-            <marker date="1479892136000" expanded="true" signature="376:391" ph="SELECT * FRO... kw_icmp" />
+            <marker date="1479899024000" expanded="true" signature="318:339" ph="select * FRO... kw_icmp" />
+            <marker date="1479899024000" expanded="true" signature="324:339" ph="SELECT * FRO... kw_icmp" />
           </folding>
         </state>
       </provider>
