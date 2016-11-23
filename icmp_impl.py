@@ -24,14 +24,18 @@ def sql2file(file_name):
     rel = db.query(sql)
 
     f = open(file_name, "wb")
+    f2 = open(file_name + '.txt', "wb")
     count = 0;
     for v in rel:
         dt1 = v[3] - v[2]
         dt2 = v[5] - v[4]
         f.write("1 1:" + str(dt1) + "\n")
         f.write("0 1:" + str(dt2) + "\n")
+        f2.write("1 " + str(dt1) + "\n")
+        f2.write("0 " + str(dt2) + "\n")
         count += 2
     f.close()
+    f2.close()
     return count
 
 
