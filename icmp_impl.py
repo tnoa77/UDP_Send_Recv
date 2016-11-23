@@ -4,6 +4,8 @@ from svmutil import *
 
 db = MySQL()
 
+train_count = 200
+test_count = 20
 
 def get_data(count):
     sql = "truncate table kw_icmp"
@@ -29,17 +31,17 @@ def sql2file(file_name):
     return count
 
 print "getting train data:"
-get_data(200)
+get_data(train_count)
 
 print "transfer train data:"
 data_count = sql2file("train.in")
 
 print "training:"
 y, x = svm_read_problem('train.in')
-m = svm_train(y[:data_count], x[:data_count], '-s 0 -c 10 -g 0.7')
+m = svm_train(y[:data_count], x[:data_count], '-s 0 -c 10 -g 0.7'fl)
 
 print "getting test data:"
-get_data(20)
+get_data(test_count)
 
 print "transfer test data:"
 data_count = sql2file("test.in")
