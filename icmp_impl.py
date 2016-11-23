@@ -4,11 +4,12 @@ from svmutil import *
 
 db = mysql()
 
-print "请输入训练集大小："
+print "please enter the size of train size:"
 train_count = int(input())
 
-print "请输入测试集大小："
+print "please enter the size of test size:"
 test_count = int(input())
+
 
 def get_data(count):
     sql = "truncate table kw_icmp"
@@ -33,6 +34,7 @@ def sql2file(file_name):
     f.close()
     return count
 
+
 print "getting train data:"
 get_data(train_count)
 
@@ -52,4 +54,3 @@ data_count = sql2file("test.in")
 print "predict:"
 y2, x2 = svm_read_problem('test.in')
 p_label, p_acc, p_val = svm_predict(y2[:data_count], x2[:data_count], m)
-
