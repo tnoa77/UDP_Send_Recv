@@ -11,7 +11,7 @@ sql = "SELECT * FROM kw_icmp"
 rel = db.query(sql)
 
 for v in rel:
-    print v.MAC
-    dt1 = v.T2 - v.T1
-    dt2 = v.T4 - v.T1
+    print v[1]
+    dt1 = v[3] - v[2]
+    dt2 = v[5] - v[4]
     print dt1, dt2
