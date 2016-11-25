@@ -30,7 +30,7 @@ while True:
     icmp = IP(dst="10.0.0.1") / ICMP()
 
     t1 = get_ts()
-    r1 = sr1(icmp, timeout=3)
+    r1 = sr(icmp, timeout=3)
     t2 = get_ts()
     if not (r1 is None):
         print "timeout 1"
@@ -38,7 +38,7 @@ while True:
 
 
     t3 = get_ts()
-    r2 = sr1(icmp, timeout=3)
+    r2 = sr(icmp, timeout=3)
     t4 = get_ts()
     if not (r2 is None):
         print "timeout 2"
