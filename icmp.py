@@ -36,7 +36,6 @@ while True:
         print "timeout 1"
         continue
 
-
     t3 = get_ts()
     r2 = sr(icmp, timeout=3)
     t4 = get_ts()
