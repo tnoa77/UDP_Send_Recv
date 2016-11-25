@@ -31,16 +31,16 @@ while True:
 
     t1 = get_ts()
     r1 = sr1(icmp, timeout=3)
+    t2 = get_ts()
     if not (r1 is None):
         continue
-    t2 = get_ts()
 
 
     t3 = get_ts()
     r2 = sr1(icmp, timeout=3)
+    t4 = get_ts()
     if not (r2 is None):
         continue
-    t4 = get_ts()
 
     sql = "INSERT INTO kw_icmp(`MAC`, `T1`, `T2`, `T3`, `T4`) VALUES('%s', %s, %s, %s, %s)" % (mac, t1, t2, t3, t4)
 
