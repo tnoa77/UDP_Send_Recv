@@ -30,12 +30,16 @@ while True:
     icmp = IP(dst="10.0.0.1") / ICMP()
 
     t1 = get_ts()
-    sr1(icmp, timeout=3)
+    r1 = sr1(icmp, timeout=3)
+    if not (r1 is None):
+        continue
     t2 = get_ts()
 
 
     t3 = get_ts()
-    sr1(icmp, timeout=3)
+    r2 = sr1(icmp, timeout=3)
+    if not (r2 is None):
+        continue
     t4 = get_ts()
 
     sql = "INSERT INTO kw_icmp(`MAC`, `T1`, `T2`, `T3`, `T4`) VALUES('%s', %s, %s, %s, %s)" % (mac, t1, t2, t3, t4)
